@@ -1,0 +1,13 @@
+server: "hub-cloud.browserstack.com"
+user: "tiagooliveirasil1"
+key: "8Dsm4MknzeEDhxxreh3D"
+
+common_caps:
+  "build": "capybara-browserstack"
+  "browserstack.debug": true
+
+browser_caps:
+  -
+    "device": "Motorola Moto X 2nd Gen"
+    "realMobile": "true"
+    "os_version": "6.0"
